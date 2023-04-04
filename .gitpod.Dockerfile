@@ -5,5 +5,3 @@ RUN sudo apt update
 RUN sudo apt install kurtosis-cli
 
 RUN kurtosis analytics disable
-# wait for dockerd to come up
-RUN sleep 60; kurtosis engine restart
