@@ -3,4 +3,7 @@ image:
 
 tasks:
   - name: Restart Kurtosis Engine
-    command: kurtosis engine restart
+    command: | 
+      kurtosis engine restart
+      clear
+  
