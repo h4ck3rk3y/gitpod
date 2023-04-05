@@ -6,11 +6,12 @@ tasks:
     command: | 
       kurtosis engine restart
       clear
-  - name: Open Readme
-    command: |
-      code README.md
   - name: Source Autocomplete
     command: |
       source <(kurtosis completion bash)
       echo "source <(kurtosis completion bash)" >> ~/.bashrc
       clear  
+  - name: Open Readme
+    command: |
+      code README.md
+      clear
