@@ -15,7 +15,3 @@ tasks:
       source <(kurtosis completion bash)
       echo "source <(kurtosis completion bash)" >> ~/.bashrc
       clear  
-
-vscode:
-  extensions:
-    - Kurtosis.kurtosis-extension
