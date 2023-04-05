@@ -6,4 +6,7 @@ tasks:
     command: | 
       kurtosis engine restart
       clear
+  - name: Open Readme
+    command: |
+      code README.md
   
