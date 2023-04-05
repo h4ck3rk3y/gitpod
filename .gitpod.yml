@@ -13,4 +13,4 @@ tasks:
     command: |
       source <(kurtosis completion bash)
       echo "source <(kurtosis completion bash)" >> ~/.bashrc
-  
+      clear  
